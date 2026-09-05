@@ -15,7 +15,7 @@
         </p>
         <h2>Information security risks involving third-party containers</h2>
         <p>
-            When using third-party containers, there are several information security risks to consider. These include vulnerabilities in the container images that could be exploited by attackers, the risk of running untrusted code that may contain malware, and potential misconfigurations that could expose sensitive data or services. Also, there is the risk of supply chain attacks where malicious code is introduced into the container image by a compromised third-party source.
+            When using third-party containers such as Docker, several information security risks need to be taken into consideration. Container images may contain known vulnerabilities or outdated packages that attackers can exploit, and since you're often running code you didn't write yourself, there's an inherent risk of hidden malware or backdoors which are sometimes introduced deliberately through supply chain attacks, where a compromised or malicious source injects harmful code into an image. Misconfigurations are another concern, since improper settings like open ports, weak permissions, or unnecessary access can expose sensitive data or services. Containers that run as root add further risk, since a container-escape vulnerability could let an attacker gain root access on the host itself. Finally, there's often a lack of image provenance, with no reliable way to confirm an image actually came from its claimed source.
         </p>
         <h2>Benefits of Infrastructure as Code (IaC)</h2>
         <p>
