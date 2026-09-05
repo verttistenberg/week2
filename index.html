@@ -4,7 +4,23 @@
         <title>Rahti app</title>
     </head>
     <body>
-        <h1>Hello</h1>
-        <p>This site runs on csc rahti</p>
+        <h1>Hello, here are the answers for the assignment</h1>
+        <h2>What is serverless architecture?</h2>
+        <p>
+            Serverless architecture is a cloud model where you write and deploy code without provisioning or managing the underlying servers yourself. The cloud provider handles scaling, patching, and infrastructure entirely for you. You're billed based on actual execution time and resources used, not for idle capacity. "Serverless" doesn't mean there are no servers, but the customer has no direct control over them. Examples of serverless architecture include: AWS Lambda, Azure Functions, Google Cloud Functions.
+        </p>
+        <h2>What is Kubernetes and what alternatives are there to it?</h2>
+        <p>
+            Kubernetes is an open-source container orchestration platform. It automates deploying, scaling, networking, and self-healing of containerized applications across a cluster of machines. Rather than managing individual containers by hand, you describe the desired state and Kubernetes ensures that the current state matches it. Alternatives for Kubernetes include Docker Swarm which comes built in with Docker Desktop and is simpler to use, Apache Mesos which is a general purpose cluster manager, and Nomad which is a lightweight cluster manager.
+        </p>
+        <h2>Information security risks involving third-party containers</h2>
+        <p>
+            When using third-party containers, there are several information security risks to consider. These include vulnerabilities in the container images that could be exploited by attackers, the risk of running untrusted code that may contain malware, and potential misconfigurations that could expose sensitive data or services. Also, there is the risk of supply chain attacks where malicious code is introduced into the container image by a compromised third-party source.
+        </p>
+        <h2>Benefits of Infrastructure as Code (IaC)</h2>
+        <p>
+            Infrastructure as Code, also known as IaC, is a practice that allows you to manage and provision computing infrastructure through machine-readable configuration files, rather than through physical hardware configuration or interactive configuration tools. The benefits of IaC include improved consistency and repeatability, as the same configuration can be applied across multiple environments. It also enables version control, allowing teams to track changes and roll back if necessary. Additionally, IaC promotes automation, reducing the risk of human error and speeding up the deployment process.
+        </p>
+
     </body>
 </html>
